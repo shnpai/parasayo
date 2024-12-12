@@ -1,0 +1,90 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EDE8DC; /* Light beige background */
+    color: #333; /* Dark text for readability */
+}
+
+h1 {
+    text-align: center;
+    color: #A5B68D; /* Olive green */
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.application-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px 15px;
+    text-align: left;
+    border: 1px solid #C1CFA1; /* Soft green border */
+}
+
+th {
+    background-color: #A5B68D; /* Olive green */
+    color: #FFFFFF; /* White text */
+}
+
+td {
+    background-color: #F7F7F7; /* Light gray rows */
+}
+
+tr:nth-child(even) td {
+    background-color: #EDE8DC; /* Alternate row color */
+}
+
+/* Message Styling */
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #A5B68D; /* Olive green */
+    margin-top: 20px;
+}
+
+/* Navbar Inclusion */
+nav {
+    background-color: #A5B68D; /* Olive green */
+    padding: 10px;
+}
+
+nav a {
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    table th, table td {
+        padding: 8px 10px;
+    }
+
+    .application-container {
+        padding: 10px;
+    }
+}
